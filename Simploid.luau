@@ -2,7 +2,7 @@
 --[[SIMPLOID CLASS=================================================================================================================
 	
 	Simploids aim to create a much more lightweight and more performant alternative to Humanoids when you need NPCs.
-	Your npc rigs must have a HumanoidRootPart as its PrimaryPart.
+	Your npc rigs must have a HumanoidRootPart as its PrimaryPart.		
 	
 	Features:
 	-No need for a humanoid
@@ -37,8 +37,8 @@
 		local new_simploid = Simploid.new(character, storage)
 		new_simploid:PathfindTo(Vector3.new(10,0,10))				--Moves npc dummy to the given position
 		
-	Simploid's Usable Attributes and Methods in this documentation:		
-	
+	Simploid's Usable Attributes and Methods in the github readme documentation:		
+	https://github.com/cheese696969/Simploid
 	
 ]]
 
@@ -48,11 +48,17 @@ local RunService = game:GetService("RunService")
 local PathfindingService = game:GetService("PathfindingService")
 local Players = game.Players
 
---Module Dependencies: Change path if wanted
+--[[
+Module Dependencies: Change path if wanted
+Make sure you have the module dependencies installed/created as an instance as a child of this module.
+To get the latest version of these module dependencies, go to:
+https://github.com/cheese696969/Simploid
+]]
 local Janitor = require(script.Janitor)
 local ReplicatedTween = require(script.ReplicatedTween)
 local GoodSignal = require(script.GoodSignal)
 local Config = require(script.Config)
+
 
 --GENERAL SETUP====================================================================================================================
 --MODULE TABLE (For Client and Server)-----------------------------------------------------------
