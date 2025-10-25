@@ -1,7 +1,4 @@
 <div align="center">
-
-<img src="https://github.com/user-attachments/assets/48847164-f26b-4bf4-8501-49afb548d7a6" />
-
 # Simploid
 
 ### Created by @cheesyhuman2 — 2025  
