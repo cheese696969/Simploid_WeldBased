@@ -9,6 +9,7 @@
 
 **Simploid** is a lightweight, high-performance alternative to Roblox's **Humanoid** system — designed for developers who need efficient, flexible, and scalable NPCs without unnecessary overhead.
 
+Get actual Roblox Asset Module here: https://create.roblox.com/store/asset/101790562193039/Simploid
 ---
 
 ## 🚀 Overview
