@@ -21,7 +21,7 @@ It removes the physics-heavy, replication-intensive behavior of traditional huma
 ---
 
 ## ⚙️ Requirements
-
+Your NPC rigs should basically be the same way as if you would be using a normal humanoid.
 Your NPC rigs must have a **HumanoidRootPart** set as their `PrimaryPart`.
 
 ---
@@ -100,10 +100,7 @@ local npc = Simploid.new(character, storage)
 npc:PathfindTo(Vector3.new(10, 0, 10)) -- Moves NPC to position
 ```
 
-📚 Notes
-Simploid’s efficiency comes from reduced replication and physics dependence.
-
-🧾 License
+## 🧾 License
 This project is licensed under the MIT License —
 you are free to use, modify, and distribute this software for any purpose, provided that the original copyright notice and license are included in all copies.
 
