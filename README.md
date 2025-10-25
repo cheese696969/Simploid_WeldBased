@@ -1,4 +1,5 @@
 <div align="center">
+   
 # Simploid
 
 ### Created by @cheesyhuman2 — 2025  
