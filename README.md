@@ -57,7 +57,8 @@ Your NPC rigs must have a **HumanoidRootPart** set as their `PrimaryPart`.
 
 ---
 
-## 🧩 Module Structure
+<h3>🧩 Module Structure</h3>
+<pre>
 Simploid
 ├── Client
 ├── Config
@@ -65,7 +66,7 @@ Simploid
 ├── Janitor
 ├── ReplicatedTween
 └── Server
-
+</pre>
 ---
 
 ## 🛠️ Extending Simploid
