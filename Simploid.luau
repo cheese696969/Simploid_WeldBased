@@ -1,6 +1,6 @@
 --!optimize 2
 --[[SIMPLOID CLASS=================================================================================================================
-	By @cheesyhuman2
+	By @cheesyhuman2 : https://github.com/cheese696969/Simploid
 	10/26/2025
 	
 	Simploids aim to create a much more lightweight and more performant alternative to Humanoids when you need NPCs.
