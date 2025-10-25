@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="420" height="120" alt="Simploid Logo" src="https://github.com/user-attachments/assets/YOUR_IMAGE_ID_HERE" />
+<img width="203" height="227" alt="Screenshot 2025-10-26 003238" src="https://github.com/user-attachments/assets/48847164-f26b-4bf4-8501-49afb548d7a6" />
 
 # Simploid
 
