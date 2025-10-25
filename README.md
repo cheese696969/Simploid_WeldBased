@@ -68,8 +68,7 @@ Simploid
 
 ## 🛠️ Extending Simploid
 
-If you wish to imitate specific humanoid features,  
-you can easily **fork and modify**:
+If you wish to imitate specific humanoid features, you can easily **fork and modify**:
 - `Server`
 - `Client`
   
@@ -92,9 +91,8 @@ require(game.ReplicatedStorage.Simploid)
 local Simploid = require(game.ReplicatedStorage.Simploid)
 
 local character = workspace.Dummy -- Your NPC rig
-local storage = workspace.NpcFolder -- Folder for active NPCs
 
-local npc = Simploid.new(character, storage)
+local npc = Simploid.new(character)
 npc:PathfindTo(Vector3.new(10, 0, 10)) -- Moves NPC to position
 ```
 
