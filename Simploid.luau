@@ -35,12 +35,12 @@
 	In server script:
 		local Simploid = require(game.ReplicatedStorage.Simploid)
 		local character = workspace.Dummy 							--Have your own dummy rig character to use.
-		local storage = workspace.NpcFolder							--Make sure the folder exists as a descendant of workspace, but not a descendant of a basepart.
-		local new_simploid = Simploid.new(character, storage)
+		
+		local new_simploid = Simploid.new(character)
 		new_simploid:PathfindTo(Vector3.new(10,0,10))				--Moves npc dummy to the given position
 		
-	Simploid's Usable Attributes and Methods in the github readme documentation:		
-	https://github.com/cheese696969/Simploid
+	Simploid's Usable Attributes and Methods in the github API reference documentation:		
+	https://github.com/cheese696969/Simploid/blob/main/API_REFERENCE.md
 	
 ]]
 
