@@ -1,5 +1,7 @@
 --!optimize 2
 --[[SIMPLOID CLASS=================================================================================================================
+	By @cheesyhuman2
+	10/26/2025
 	
 	Simploids aim to create a much more lightweight and more performant alternative to Humanoids when you need NPCs.
 	Your npc rigs must have a HumanoidRootPart as its PrimaryPart.		
