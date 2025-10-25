@@ -12,7 +12,7 @@
 <sub>Get the actual Roblox Asset Module here:  
 <a href="https://create.roblox.com/store/asset/101790562193039/Simploid">https://create.roblox.com/store/asset/101790562193039/Simploid</a></sub>
 
-<sub>Simploid Object Attributes and Methods Documentation:
+<sub>Simploid Object Attributes and Methods Documentation:<br>
 <a href="https://github.com/cheese696969/Simploid/blob/main/API_REFERENCE.md">https://github.com/cheese696969/Simploid/blob/main/API_REFERENCE.md</a></sub>
 
 ---
