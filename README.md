@@ -32,7 +32,7 @@ Your NPC rigs must have a **HumanoidRootPart** set as their `PrimaryPart`.
    Simploid works without the default `Humanoid` object, freeing you from its performance cost.
 
 2. **Minimal Physics Usage**  
-   Physics are used *only* when falling — all other movement is handled efficiently.
+   Physics are used *only* when falling — all other movement is handled through math and tweens.
 
 3. **Client-Side Smooth Movement**  
    Movement is replicated efficiently and smoothed only on the client for optimal performance.
@@ -58,7 +58,6 @@ Your NPC rigs must have a **HumanoidRootPart** set as their `PrimaryPart`.
 ---
 
 ## 🧩 Module Structure
-
 Simploid
 ├── Client
 ├── Config
@@ -67,17 +66,17 @@ Simploid
 ├── ReplicatedTween
 └── Server
 
-yaml
-Copy code
-
 ---
 
 ## 🛠️ Extending Simploid
 
-If you wish to add specific humanoid features (like animations or damage detection),  
+If you wish to imitate specific humanoid features,  
 you can easily **fork and modify**:
-- `ServerHelper`
-- `ClientHelper`
+- `Server`
+- `Client`
+  
+If you wish to modify and tweak behaviors of simploids, you can easily change some configurations in:
+- `Config`
 
 ---
 
@@ -102,8 +101,6 @@ npc:PathfindTo(Vector3.new(10, 0, 10)) -- Moves NPC to position
 ```
 
 📚 Notes
-Ensure NpcFolder exists as a descendant of workspace, but not of a BasePart.
-
 Simploid’s efficiency comes from reduced replication and physics dependence.
 
 🧾 License
@@ -111,6 +108,5 @@ This project is licensed under the MIT License —
 you are free to use, modify, and distribute this software for any purpose, provided that the original copyright notice and license are included in all copies.
 
 <div align="center">
-🧩 Simploid — Lightweight NPCs for Roblox Developers.
-
+🧩 Simploid — Lightweight NPCs for Roblox.
 </div>
