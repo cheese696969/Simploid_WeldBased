@@ -4,7 +4,7 @@
 
 # Simploid
 
-### Created by @YourNameHere — 2025  
+### Created by @cheesyhuman2 — 2025  
 *Licensed under the MIT License*
 
 </div>
@@ -87,9 +87,10 @@ you can easily **fork and modify**:
 ```lua
 -- LocalScript
 require(game.ReplicatedStorage.Simploid)
-Server-side:
-lua
-Copy code
+```
+
+### Server-side:
+```lua
 -- Script
 local Simploid = require(game.ReplicatedStorage.Simploid)
 
@@ -98,16 +99,18 @@ local storage = workspace.NpcFolder -- Folder for active NPCs
 
 local npc = Simploid.new(character, storage)
 npc:PathfindTo(Vector3.new(10, 0, 10)) -- Moves NPC to position
+```
+
 📚 Notes
 Ensure NpcFolder exists as a descendant of workspace, but not of a BasePart.
 
 Simploid’s efficiency comes from reduced replication and physics dependence.
 
 🧾 License
-This project is licensed under the GNU GPLv3 License —
-you are free to use, modify, and distribute it, provided that all copies remain open-source under the same license.
+This project is licensed under the MIT License —
+you are free to use, modify, and distribute this software for any purpose, provided that the original copyright notice and license are included in all copies.
 
 <div align="center">
 🧩 Simploid — Lightweight NPCs for Roblox Developers.
 
-</div> ```
+</div>
