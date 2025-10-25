@@ -22,6 +22,7 @@
 | `Death()` | Handles death logic. |
 | `Destroy()` | Destroys the Simploid instance and cleans up memory. |
 
+
 ---
 
 ## 💻 Client
