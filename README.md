@@ -5,7 +5,7 @@
 # Simploid
 
 ### Created by @YourNameHere — 2025  
-*Licensed under the GNU GPLv3 License*
+*Licensed under the MIT License*
 
 </div>
 
