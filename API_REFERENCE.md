@@ -2,7 +2,7 @@
 
 ---
 
-## ⚙️ Changable Attributes : (Set by :SetAttribute)
+## ⚙️ Changable Attributes - (Are set by :SetAttribute)
 | **Attribute** | **Type** | **Default Value** | **Description** |
 |----------------|-----------|-------------------|-----------------|
 | `Health` | `number` | `100` | The current health of the Simploid. |
