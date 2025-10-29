@@ -2,6 +2,16 @@
 
 ---
 
+## ⚙️ Changable Attributes : (Set by :SetAttribute)
+| **Attribute** | **Type** | **Default Value** | **Description** |
+|----------------|-----------|-------------------|-----------------|
+| `Health` | `number` | `100` | The current health of the Simploid. |
+| `MaxHealth` | `number` | `100` | The maximum health the Simploid can have. |
+| `WalkSpeed` | `number` | `16` | Determines how fast the Simploid moves. |
+| `RootHeight` | `number` | `3` | The vertical offset used to detect the ground from the HumanoidRootPart. |
+
+---
+
 ## 📦 Server
 
 ### **Attributes**
