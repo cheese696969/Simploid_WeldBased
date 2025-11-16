@@ -108,6 +108,3 @@ npc:PathfindTo(Vector3.new(10, 0, 10)) -- Moves NPC to position
 This project is licensed under the MIT License —
 you are free to use, modify, and distribute this software for any purpose, provided that the original copyright notice and license are included in all copies.
 
-<div align="center">
-🧩 Simploid — Lightweight NPCs for Roblox.
-</div>
